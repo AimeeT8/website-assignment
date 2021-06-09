@@ -1,0 +1,620 @@
+/* Custom Style Sheet */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+
+/* Nav Bar */
+
+
+.navbar-brand   {
+    color: white !important; 
+    font-size: 1.8rem;
+    font-weight: 900;
+    
+}
+
+.navbar-brand i {
+    margin-left: 0.5rem;
+    
+}
+
+.navbar-nav li {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    
+
+}
+
+.navbar .nav-link {
+    font-size: 1.4rem;
+    font-weight: 900;
+    max-width: 100%;
+    height: auto;
+    
+
+
+}
+
+.nav-link {
+    color: white !important;
+}
+
+
+
+
+
+/*Hero*/
+
+.hero-content {
+    padding-top: 2rem;
+}
+
+.hero-content h1 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.hero-content p {
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.hero-content .hero-image {
+    margin-top: 8rem;
+}
+
+.hero-content p span {
+    color: #2a423a;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    padding-left: 2rem;
+    opacity: 100%;
+}
+
+
+
+
+/*Group picture and email form*/
+
+.content-wrapper {
+    background-color: #527158;
+}
+
+section .container-fluid {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.group-image {
+    max-width: 100%;
+    height: auto;
+    opacity: 100%;
+    
+}
+
+.form-description {
+    padding-top: 4rem;
+}
+
+.form-description h2 {
+    font-weight: 900;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.form-description p {
+    font-weight: 900;
+    color: white;
+    font-size: 1.1rem;
+}
+
+form .form h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.form label {
+    color: white;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+
+.btn-main {
+    color: white; 
+    background-color: #2a423a;
+}
+
+
+
+/*quote*/
+
+.card h4 {
+    font-weight: 700;
+    font-size: 1.7rem;
+
+}
+
+
+
+/*Footer*/
+
+footer h4 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+footer .contact p {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: white; 
+}
+
+ footer .social-icons a  {
+    color: white; 
+    font-size: 1.7rem;
+    
+}
+
+footer .container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+footer .attribution {
+    background-color: #2a423a;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+footer .attribution p {
+    color: white;
+    font-size: 1rem;
+}
+
+footer .attribution .fa-plug {
+    color: white;
+    font-size: 1rem;
+
+
+}
+
+
+
+.attribution a {
+    color: white;
+}
+
+
+
+/* ==========================================================
+                    About Page 
+   ========================================================== */
+
+
+   .about-heading {
+    font-size: 1.5rem;
+    text-align: center; 
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    margin-top: 1rem;
+}
+
+.font-awesome-icon-about  {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    text-align: center; 
+    font-size: 2.6rem;
+}
+
+
+  .features-item-description {
+
+    font-size: 1.1rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.picture-area img {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+
+}
+
+.provided-images p {
+    text-align: center; 
+    color: black;
+    font-size: 1rem;
+
+}
+
+.provided-images .authors {
+    text-align: center; 
+    color: black; 
+}
+
+
+
+
+
+/*==============================================================
+                        Reviews Page
+==============================================================*/
+
+
+
+.reviews-heading {
+    text-align: center; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+
+}
+h1 span {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+
+
+ .video-media {
+    text-align: center;
+    background-color: #527158;
+    width: 100%;
+    height: 100%;
+    padding-top: 0.3rem;
+         
+}
+
+ iframe {
+    border: solid black 1px;
+} 
+
+
+
+
+.hero-reviews {
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.hero-reviews img {
+    display: block;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.first-review , .second-review,
+.third-review {
+    border-bottom: solid #527158 .7rem;
+}
+
+
+
+
+
+.first-review h2, 
+.second-review h2,
+.third-review h2, .fourth-review h2  {
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.second-review p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.fourth-review h3 {
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+.reviews-py2 {
+    padding-top: 3.5rem;
+    margin-top: 3rem;
+    color: black; 
+    font-size: 1rem;
+}
+
+
+
+/*=======================================================================
+                              FAQ Page
+=======================================================================*/
+
+
+.questions-first, .questions-second {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.questions-first h1, .questions-second h1 {
+    font-size: 1.3rem;
+}
+
+table {
+    text-align: center; 
+}
+
+#table-wrapper {
+    text-align: center; 
+}
+
+#table-wrapper h2 {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    font-size: 1.1rem;
+    border-top: solid #527158 .7rem
+
+}
+
+.table {
+    
+    margin: auto;
+}
+
+
+.list-reasons  {
+    margin-top: 4rem;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.list-reasons p {
+    padding-left: 1.5rem;
+}
+
+
+.py2 {
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================================================
+                            Contact Page
+======================================================================*/
+
+
+
+
+.mission {
+    text-align: center; 
+    background-color: #527158;
+    font-weight: 700;
+    border-top: dashed white 1px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+    
+}
+
+.mission h1 {
+    color: white; 
+    font-size: 1.5rem;
+}
+
+.mission p {
+    color: white; 
+}
+
+
+.map {
+    margin-top: 2rem;
+}
+
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative; 
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.contact-page {
+    padding-top: 1rem;
+    font-weight: bold; 
+    font-size: 1.0rem;
+
+    
+}
+
+.social-contact {
+    margin-top: 2rem;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+.social-icon-contact {
+    margin-top: -1rem;
+    font-size: 1.4rem;
+}
+
+.py2 .fa-plug {
+    color: black; 
+    
+}
+
+.special-form {
+    margin-top: 2rem;
+
+}
+.special-form p {
+    font-size: 1.1rem;
+}
+
+.form-contact {
+    padding-top: 1rem;
+}
+
+
+.special-form form {
+    margin: 0 auto; 
+    width: 400px; 
+    padding: 1em;
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 1em; 
+    background-color: #527158;
+    color: white;
+     
+}
+
+.special-form label {
+    display: inline-block; 
+    width: 90px;
+    text-align: center;
+    padding-top: 0.5rem;
+
+}
+
+.special-form input, textarea {
+    font: 1em;
+    width: 300px; 
+    box-sizing: border-box; 
+    border: 1px solid #999;
+    
+
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+.special-form textarea {
+    vertical-align: top; 
+    height: 5em;
+}
+
+.special-form .button {
+    margin-top: 1rem;
+    
+}
+
+
+
+.special-form button {
+    margin-left: .5em;
+    
+}
+
+footer .py2 {
+    margin-top: 3rem;
+    color: black;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/*======================================================================
+                             FAQ page
+======================================================================*/
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black; 
+    letter-spacing: 1px;
+    font-size: .7rem;
+
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+td {
+    text-align: center; 
+}
+
+caption {
+    padding: 10px;
+}
+
+.py2 {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
